@@ -64,23 +64,3 @@ Now we have the cutoff x_coverage to filter positions.
 7. Keeping of this second allelic frequencies matrix only robust_pos.
 
 
-
-
-NB: my output h5ad should have for each manip for each celltype 100 or less cells
-
-NB :
-For the moment you have to check in each script of this folder the section :
-
-###################
-
-INPUT VARIABLES 
-
-INPUT VARIABLES
-
-###################
-
-To check the variables to change (then the user will be able to enter all of
-those variables when launching pipeline).
-
-
-
