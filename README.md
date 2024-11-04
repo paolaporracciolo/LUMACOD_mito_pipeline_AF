@@ -16,7 +16,6 @@ conda activate heteroplasmy_pipeline
 1. Taking a folder containing bam/bai files as input.
    
    a. Checking if all data is indexed, if not, it indexes data.
-   
    b. Filtering of BAMs to keep only chrM data.
 
 3. Reading a h5ad as second input, with the key of the annotation of interest. 
