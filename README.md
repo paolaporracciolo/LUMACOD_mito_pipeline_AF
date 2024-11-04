@@ -14,10 +14,12 @@ conda activate heteroplasmy_pipeline
 ## FIRST PART : 
 
 1. Taking a folder containing bam/bai files as input.
+   
    a. Checking if all data is indexed, if not, it indexes data.
+   
    b. Filtering of BAMs to keep only chrM data.
 
-2. Reading a h5ad as second input, with the key of the annotation of interest. 
+3. Reading a h5ad as second input, with the key of the annotation of interest. 
    (It's up to the user to filter data before using the pipeline)
    a. Filtering the adata, for each celltype, as follows:
       i. Sorting of cells from the one with the highest number of UMIs, to the one with the lowest one.
@@ -35,7 +37,7 @@ conda activate heteroplasmy_pipeline
       CELLTYPE_BARCODE_cellIDs_ADATANAME_DONOR_MANIP_COMPARTMENT.bam
       CELLTYPE_BARCODE_cellIDs_ADATANAME_DONOR_MANIP_COMPARTMENT.bai
    
-3. Stats:
+4. Stats:
    a. Counting reads
    b. LOREM IPSUM
 
