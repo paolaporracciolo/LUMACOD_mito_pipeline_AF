@@ -38,6 +38,7 @@ conda activate heteroplasmy_pipeline
    b. LOREM IPSUM
 
 conda activate r_heteroplasmy_pipeline
+
 4. Coverage and allelic frequencies:
    BAMs are still in the form of CELLTYPE_cellIDs_ADATANAME_DONOR_MANIP_COMPARTMENT.bam
    a. Calculating coverage for each position (celltype by celltype).
@@ -48,6 +49,7 @@ conda activate r_heteroplasmy_pipeline
 
 ## SECOND PART:
 Now we have the cutoff x_coverage to filter positions.
+
 5. Filtering the matrix of allelic frequencies in 4.b., keeping positions where all celltypes
    have a coverage higher than the x_coverage cutoff. Saving these positions in robust_pos
 6. Recalculating coverage and allelic frequencies:
